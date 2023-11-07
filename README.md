@@ -2,10 +2,10 @@
 This is QA Robot use NLP to training a smart robot agent
 
 ## Project Member:
-Andy(Xiangyu) Cui, cui.xiangyu@northeastern.edu
-Zichong Meng, meng.zic@northeastern.edu
-Xichen Liu, liu.xic@northeastern.edu
-Xueyan Feng, feng.xuey@northeastern.edu
+- Andy(Xiangyu) Cui, cui.xiangyu@northeastern.edu
+- Zichong Meng, meng.zic@northeastern.edu
+- Xichen Liu, liu.xic@northeastern.edu
+- Xueyan Feng, feng.xuey@northeastern.edu
 
 ## Basic Idea
 - In traditional settings, manual customer service takes time and experience to answer customer questions. Our group sees this challenge in our daily life and would like to propose a solution to   this problem. We would like to implement a customer service chatbot to assist users to gain knowledge of amazon products. We would like to use amazon customer questions and answers and           build/use our artificial intelligence agent to conduct in-speed and accurate response while optimizing operational costs.
