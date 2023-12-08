@@ -42,3 +42,15 @@ We will employ the K-Fold Cross-Validation strategy to test and measure if our m
 
 Also, in our project, we will not solely rely on quantitative metrics. We'll also incorporate a qualitative assessment through human evaluation. We will review several responses by our team members as well. We'll also conduct an error analysis to see where and why certain models might be underperforming.
 
+## GPT2 finetuned model weights
+```bash
+pip install gdown
+```
+For 25 epoch
+```bash
+gdown 1TPkEpr-Z4PxN4lW5m_X-Epge1QT3bfOr
+```
+For 50 epoch
+```bash
+gdown 1YM976lPRR30ccaNkSL1zhpuhmSZeQ_-v
+```
