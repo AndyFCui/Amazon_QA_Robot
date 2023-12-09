@@ -14,7 +14,7 @@ This is QA Robot use NLP to training a smart robot agent
 - We will use the following datasets:
 - https://www.kaggle.com/datasets/PromptCloudHQ/toy-products-on-amazon
 
-- The first dataset contains numerous lines of customer questions and answers to each question from amazon about toys. The questions and answers are splitted using //. The second dataset contains lines of customer questions and answers from amazon for various different categories. The questions and answers are in two different csv files, but a question and answer pair shares the same QuestionID. We will use those questions as our training input and those answers as our targets. 
+- The dataset contains numerous lines of customer questions and answers to each question from amazon about toys. The questions and answers are splitted using  The questions and answers are in a csv file, but a question and answer pair shares the same QuestionID. We will use those questions as our training input and those answers as our targets. 
 
 - We planned to train two different kinds of neural network models, thus to see how two different QA models perform. We would like to train a Bert based model (encoder only, bidirectional), RoBERTa, and an original transformer model (encoder-decoder structure).
 Also we plan to perform visualizations on the model embeddings using T-SNE, and we would also like to create several answer maps for test cases to show each of the model performances.
@@ -29,17 +29,9 @@ Assessment methodology
 We will adopt the following methodology to assess our models within this project:
 
 ## Evaluation Metric:
-We'll track the percentage of questions our models answer correctly, and we will also employ F1 metric to assess the details of each model's performance, especially in our setting where our datasets are imbalanced.
+We'll track the percentage of questions our models answer correctly, and we will also employ F1 metric and BLEU score to assess the details of each model's performance, especially in our setting where our datasets are imbalanced.
 
- ## Cross-Validation:
-We will employ the K-Fold Cross-Validation strategy to test and measure if our models generalize well.
-
-## Ablation Studies
-1. We'll try different subsets of the datasets on these models to see how they perform on different datasets and whether our models' performances are impacted.
-2. We plan to adopt different preprocessing techniques to determine their effect on our models.
-3. We will try different sizes of the transformers model (for example RoBERTa-small vs RoBERTa-large) to see how different sizes of the model will impact the performances.
-
-Also, in our project, we will not solely rely on quantitative metrics. We'll also incorporate a qualitative assessment through human evaluation. We will review several responses by our team members as well. We'll also conduct an error analysis to see where and why certain models might be underperforming.
+## Discussion:
 
 ## GPT2 finetuned model weights
 ```bash
