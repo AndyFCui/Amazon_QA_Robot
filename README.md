@@ -13,7 +13,6 @@ This is QA Robot use NLP to training a smart robot agent
 ## Approach to Solution
 - We will use the following datasets:
 - https://www.kaggle.com/datasets/PromptCloudHQ/toy-products-on-amazon
-- https://www.kaggle.com/datasets/praneshmukhopadhyay/amazon-questionanswer-datase
 
 - The first dataset contains numerous lines of customer questions and answers to each question from amazon about toys. The questions and answers are splitted using //. The second dataset contains lines of customer questions and answers from amazon for various different categories. The questions and answers are in two different csv files, but a question and answer pair shares the same QuestionID. We will use those questions as our training input and those answers as our targets. 
 
