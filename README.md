@@ -16,8 +16,8 @@ This is QA Robot use NLP to training a smart robot agent
 
 - The dataset contains numerous lines of customer questions and answers to each question from amazon about toys. The questions and answers are splitted using  The questions and answers are in a csv file, but a question and answer pair shares the same QuestionID. We will use those questions as our training input and those answers as our targets. 
 
-- We planned to train two different kinds of neural network models, thus to see how two different QA models perform. We would like to train a Bert based model (encoder only, bidirectional), RoBERTa, and an original transformer model (encoder-decoder structure).
-Also we plan to perform visualizations on the model embeddings using T-SNE, and we would also like to create several answer maps for test cases to show each of the model performances.
+- We planned to train two different kinds of neural network models, thus to see how two different QA models perform. We would like to train a Bert based model (encoder only, bidirectional), Bert-base, and an GPT2-small model (decoder only structure).
+Also we plan to perform visualizations training process and accuracy to show each of the model performances.
 Related work
 Question Answering Systems: Survey and Trends
 https://doi.org/10.1016/j.procs.2015.12.005
@@ -31,17 +31,8 @@ We will adopt the following methodology to assess our models within this project
 ## Evaluation Metric:
 We'll track the percentage of questions our models answer correctly, and we will also employ F1 metric and BLEU score to assess the details of each model's performance, especially in our setting where our datasets are imbalanced.
 
-## Discussion:
+## K-Fold Cross-Validation
+We will perform K-Fold Cross-Validation studies on both models see how model performs on different fold of data.
 
-## GPT2 finetuned model weights
-```bash
-pip install gdown
-```
-For 25 epoch
-```bash
-gdown 1TPkEpr-Z4PxN4lW5m_X-Epge1QT3bfOr
-```
-For 50 epoch
-```bash
-gdown 1YM976lPRR30ccaNkSL1zhpuhmSZeQ_-v
-```
+## Ablation Studies
+We will fine-tune both models with two different configurations of hyperparameters to see which is the best choice for both models.
