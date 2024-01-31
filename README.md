@@ -7,6 +7,25 @@ This is QA Robot use NLP to training a smart robot agent
 - Xichen Liu, liu.xic@northeastern.edu
 - Xueyan Feng, feng.xuey@northeastern.edu
 
+## Tech (Bert & GPT-2)
+![tech](https://github.com/AndyFCui/Amazon_QA_Robot/assets/10085168/190a8abf-8fe1-4ce2-9e31-a80a547a3d43)
+
+### Bert
+![bert](https://github.com/AndyFCui/Amazon_QA_Robot/assets/10085168/2ce99c67-d661-4fb1-b4bb-14117bb438a8)
+![bert_kford](https://github.com/AndyFCui/Amazon_QA_Robot/assets/10085168/de34018b-1f89-4778-9850-4c3a1d863e98)
+
+### GPT-2
+![gpt2](https://github.com/AndyFCui/Amazon_QA_Robot/assets/10085168/9a7ceb9f-e991-45f8-943c-c440253fe830)
+![gpt2_kford](https://github.com/AndyFCui/Amazon_QA_Robot/assets/10085168/d3fb4469-7ff1-43a6-9801-21a72d37ce9f)
+
+
+
+
+
+
+ 
+
+
 ## Basic Idea
 - In traditional settings, manual customer service takes time and experience to answer customer questions. Our group sees this challenge in our daily life and would like to propose a solution to   this problem. We would like to implement a customer service chatbot to assist users to gain knowledge of amazon products. We would like to use amazon customer questions and answers and           build/use our artificial intelligence agent to conduct in-speed and accurate response while optimizing operational costs.
 
